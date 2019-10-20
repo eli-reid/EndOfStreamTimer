@@ -46,8 +46,8 @@ function connectWebsocket() {
     var socket = new WebSocket("ws://127.0.0.1:3337/streamlabs");
     socket.onopen = function () {
         var auth = {
-            author: "Edog0049a",
-            website: "edog0049a.com",
+            author: "Eli Reid",
+            website: "EliReid.com",
             api_key: API_Key,
             events: [
                 "EVENT_START", 
