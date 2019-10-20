@@ -15,9 +15,9 @@ clr.AddReference("IronPython.Modules.dll")
 
 debuggingMode = True
 ScriptName = "End Of Stream Timer"
-Website = "http://www.edog0049a.com"
+Website = "https://www.Eliried.com"
 Description = "When Will It end"
-Creator = "Edog"
+Creator = "Eli Reid"
 Version = "9.0"
 
 SettingsFile = "Settings.json"
