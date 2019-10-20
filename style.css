@@ -1,0 +1,30 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: bolder;
+    font-family: Abel;
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    letter-spacing: 3px;
+}
+
+#timer {
+    font-family: Abel;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 0.8;
+    padding: 0;
+    margin: 0;
+}
+.d {
+    line-height: 0.8;
+    padding: 0;
+    margin: 0;
+}
+
+

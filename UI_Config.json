@@ -1,0 +1,317 @@
+﻿{
+  "output_file": "Settings.json",
+  "Overlay": {
+    "type": "button",
+    "label": "Open Overlay File Folder",
+    "tooltip": "Opens the folder where you can find the file that can be included in your overlay.",
+    "function": "Open",
+    "wsevent": "",
+    "group": ""
+  },
+  "AutoStart": {
+    "type": "checkbox",
+    "value": true,
+    "label": "Autostart Timer",
+    "tooltip": "once live the time will start",
+    "group": ""
+  },
+  "EndTime": {
+    "type": "textbox",
+    "value": "00:30:00",
+    "label": "Time to End (24Hr  format 00:00:00)",
+    "tooltip": "time in 24hr format like this: 00:30:00 = 12:30:00 AM |1=13|2=14|3=15|4=16|5=17|6=18|7=19|8=20|9=21|10=22|11=23|12=00|",
+    "group": ""
+  },
+  "Start": {
+    "type": "button",
+    "label": "Start",
+    "tooltip": "Starts timer",
+    "function": "Start",
+    "wsevent": "",
+    "group": ""
+  },
+  "Stop": {
+    "type": "button",
+    "label": "Stop",
+    "tooltip": "Stops timer",
+    "function": "Stop",
+    "wsevent": "",
+    "group": ""
+  },
+  "AddMinutes": {
+    "type": "button",
+    "label": "Add 15 Minutes",
+    "tooltip": "Adds extra time, clears after stream ends",
+    "function": "AddMin",
+    "wsevent": "",
+    "group": ""
+  },
+  "AddHour": {
+    "type": "button",
+    "label": "Add 1 Hour",
+    "tooltip": "Adds extra time, clears after stream ends",
+    "function": "AddHour",
+    "wsevent": "",
+    "group": ""
+  },
+
+
+  "DisplayMsg": {
+    "type": "textbox",
+    "value": "Time Left: ",
+    "label": "Message that shows before timer",
+    "tooltip": "The message that the bot will display.",
+    "group": "Message Settings"
+  },
+
+  "EndMsg": {
+    "type": "textbox",
+    "value": "Bed Time!",
+    "label": "Message that shows after timer ends",
+    "tooltip": "The message that the bot will display.",
+    "group": "Message Settings"
+  },
+  "TextSizeSlider": {
+    "type": "slider",
+    "label": "Timer Text Size ",
+    "value": 24,
+    "min": 0,
+    "max": 100,
+    "ticks": 1,
+    "tooltip": "",
+    "group": "Overlay Settings"
+  },
+
+  "Style": {
+    "type": "dropdown",
+    "value": "Solid Color",
+    "items": [ "Solid Color", "Rainbow" ],
+    "label": "Style",
+    "tooltip": "Change text color style",
+    "group": "Overlay Settings"
+  },
+  "RainbowSlider": {
+    "type": "slider",
+    "label": "Rainbow Angle",
+    "value": 270,
+    "min": 0,
+    "max": 360,
+    "ticks": 1,
+    "tooltip": "",
+    "group": "Overlay Settings"
+  },
+  "Colors": {
+    "type": "slider",
+    "label": "How many colors in your rainbow ",
+    "value": 7,
+    "min": 2,
+    "max": 7,
+    "ticks": 1,
+    "tooltip": "",
+    "group": "Overlay Settings"
+  },
+  "Color1": {
+    "type": "colorpicker",
+    "label": "Color #1",
+    "value": "rgba(255,0,0,1)",
+    "tooltip": "",
+    "group": "Overlay Settings"
+  },
+  "Color2": {
+    "type": "colorpicker",
+    "label": "Color #2",
+    "value": "rgba(255,165,0 ,1 )",
+    "tooltip": "",
+    "group": "Overlay Settings"
+  },
+  "Color3": {
+    "type": "colorpicker",
+    "label": "Color #3",
+    "value": "rgba(255,0,0,255)",
+    "tooltip": "",
+    "group": "Overlay Settings"
+  },
+  "Color4": {
+    "type": "colorpicker",
+    "label": "Color #4",
+    "value": "rgba(0,128,0 ,1 )",
+    "tooltip": "",
+    "group": "Overlay Settings"
+  },
+  "Color5": {
+    "type": "colorpicker",
+    "label": "Color #5",
+    "value": "rgba(0,0,255 ,1 )",
+    "tooltip": "",
+    "group": "Overlay Settings"
+  },
+  "Color6": {
+    "type": "colorpicker",
+    "label": "Color #6",
+    "value": "rgba(75,0,130 ,1 )",
+    "tooltip": "",
+    "group": "Overlay Settings"
+  },
+  "Color7": {
+    "type": "colorpicker",
+    "label": "Color #8",
+    "value": "rgba(238,130,238 ,1 )",
+    "tooltip": "",
+    "group": "Overlay Settings"
+  },
+  "ChatEndEnabled": {
+    "type": "checkbox",
+    "value": true,
+    "label": "Timer has ended ",
+    "tooltip": "once live the time will start",
+    "group": "Chat Braodcast Settings"
+  },
+  "ChatEndMsg": {
+    "type": "textbox",
+    "value": "It might be Bed Time!",
+    "label": "Chat message that shows after timer ends",
+    "tooltip": "The message that the bot will display.",
+    "group": "Chat Braodcast Settings"
+  },
+  "ChatSoonEnabled": {
+    "type": "checkbox",
+    "value": true,
+    "label": "Timer ending soon chat message",
+    "tooltip": "When time left equal slider it will output message that the end is near",
+    "group": "Chat Braodcast Settings"
+  },
+  "ChatSoonSlider": {
+    "type": "slider",
+    "label": "Timer ending soon warning (minutes)",
+    "value": 10,
+    "min": 5,
+    "max": 30,
+    "ticks": 1,
+    "tooltip": "When the timer hit this it will put out how minutes remaining",
+    "group": "Chat Braodcast Settings"
+  },
+
+
+  "ChatSoonMsg": {
+    "type": "textbox",
+    "value": "Bed Time is coming soon $minutes!",
+    "label": "Chat message that shows when time left equals slider",
+    "tooltip": "The message that the bot will display.",
+    "group": "Chat Braodcast Settings"
+  },
+  "SoundEnabled": {
+    "type": "checkbox",
+    "value": true,
+    "label": "Timer ended Sound",
+    "tooltip": "once live the time will start",
+    "group": "Sound Settings"
+  },
+
+  "SoundFile": {
+    "type": "textbox",
+    "value": "sound.pm3",
+    "label": "Sound file name",
+    "tooltip": "The message that the bot will display.",
+    "group": "Sound Settings"
+  },
+  "SoundVolume": {
+    "type": "slider",
+    "label": "Sound Volume",
+    "value": 100,
+    "min": 0,
+    "max": 100,
+    "ticks": 1,
+    "tooltip": "When the timer hit this it will put out how minutes remaining",
+    "group": "Sound Settings"
+  },
+  "testSounds": {
+    "type": "button",
+    "label": "Test Sound",
+    "tooltip": "Opens the folder where you can store sound file",
+    "function": "PlaySound",
+    "wsevent": "",
+    "group": "Sound Settings"
+  },
+  "Sounds": {
+    "type": "button",
+    "label": "Open Sounds File Folder",
+    "tooltip": "Opens the folder where you can store sound file",
+    "function": "OpenSounds",
+    "wsevent": "",
+    "group": "Sound Settings"
+  },
+
+  "P_start": {
+    "type": "dropdown",
+    "value": "Caster",
+    "items": [ "Everyone", "Regular", "Subscriber", "Moderator", "Editor", "Caster" ],
+    "label": "Bot Command \"!timer start\" Permission level",
+    "tooltip": "Set the permission level for the command",
+    "group": "Permissions"
+  },
+  "P_stop": {
+    "type": "dropdown",
+    "value": "Caster",
+    "items": [ "Everyone", "Regular", "Subscriber", "Moderator", "Editor", "Caster" ],
+    "label": "Bot Command \"!timer stop\" Permission level",
+    "tooltip": "Set the permission level for the command",
+    "group": "Permissions"
+  },
+  "P_gettime": {
+    "type": "dropdown",
+    "value": "Caster",
+    "items": [ "Everyone", "Regular", "Subscriber", "Moderator", "Editor", "Caster" ],
+    "label": "Bot Command \"!timer gettime\" Permission level",
+    "tooltip": "Set the permission level for the command",
+    "group": "Permissions"
+  },
+  "P_timeleft": {
+    "type": "dropdown",
+    "value": "Caster",
+    "items": [ "Everyone", "Regular", "Subscriber", "Moderator", "Editor", "Caster" ],
+    "label": "Bot Command \"!timer timeleft\" Permission level",
+    "tooltip": "Set the permission level for the command",
+    "group": "Permissions"
+  },
+  "P_settime": {
+    "type": "dropdown",
+    "value": "Caster",
+    "items": [ "Everyone", "Regular", "Subscriber", "Moderator", "Editor", "Caster" ],
+    "label": "Bot Command \"!timer settime [00:00:00]\" Permission level",
+    "tooltip": "Set the permission level for the command",
+    "group": "Permissions"
+  },
+  "P_setmsg": {
+    "type": "dropdown",
+    "value": "Caster",
+    "items": [ "Everyone", "Regular", "Subscriber", "Moderator", "Editor", "Caster" ],
+    "label": "Bot Command \"!timer setmsg [message]\" Permission level",
+    "tooltip": "Set the permission level for the command",
+    "group": "Permissions"
+  },
+  "P_setendmsg": {
+    "type": "dropdown",
+    "value": "Caster",
+    "items": [ "Everyone", "Regular", "Subscriber", "Moderator", "Editor", "Caster" ],
+    "label": "Bot Command \"!timer setendmsg [message]\" Permission level",
+    "tooltip": "Set the permission level for the command",
+    "group": "Permissions"
+  },
+  "P_addmin": {
+    "type": "dropdown",
+    "value": "Caster",
+    "items": [ "Everyone", "Regular", "Subscriber", "Moderator", "Editor", "Caster" ],
+    "label": "Bot Command \"!timer setendmsg [message]\" Permission level",
+    "tooltip": "Set the permission level for the command",
+    "group": "Permissions"
+  },
+  "P_addhr": {
+    "type": "dropdown",
+    "value": "Caster",
+    "items": [ "Everyone", "Regular", "Subscriber", "Moderator", "Editor", "Caster" ],
+    "label": "Bot Command \"!timer setendmsg [message]\" Permission level",
+    "tooltip": "Set the permission level for the command",
+    "group": "Permissions"
+  }
+}
+
